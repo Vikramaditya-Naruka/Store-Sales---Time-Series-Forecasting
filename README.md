@@ -7,7 +7,7 @@ Data Preparation:
  Use historical data from multiple stores and product families, including sales information, promotions, and other features like oil prices and holidays.
 
 Feature Engineering:
- Generate relevant features like lag variables, rolling windows for sales trends, promotions, and external factors.
+ Generate relevant features like store_family_interaction, onpromo_promo_sum7_interaction, promotions, and external factors.
 
 Model Training:
  Use machine learning models such as XGBoost to capture complex patterns in the data. Fine-tune the model's hyperparameters using RandomizedSearchCV to improve performance.
